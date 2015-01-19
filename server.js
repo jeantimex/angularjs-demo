@@ -1,8 +1,4 @@
-var http = require('http');
+var connect = require('connect'),
+    serveStatic = require('serve-static');
 
-http.createServer(function (req, res) {
-
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Your node.js server is running on localhost:3000');
-
-}).listen(3000);
+connect().use(serveStatic(__dirname)).listen(8080);
