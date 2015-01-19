@@ -1,0 +1,24 @@
+{
+  "name": "angularjs",
+  "version": "0.0.1",
+  "authors": [
+    "Yong Su <jean.timex@gmail.com>"
+  ],
+  "description": "Su AngularJS Demo",
+  "keywords": [
+    "AngularJS"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}
